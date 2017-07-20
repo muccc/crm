@@ -1,0 +1,6 @@
+#!/bin/sh
+storage=http://cdn.andreas-hubel.de/misc/crm/esp8266
+wget -N $storage/170719_264_mono2.flac
+wget -N $storage/170719_264_mono4.flac
+wget -N $storage/170719_265_mono2.flac
+wget -N $storage/170719_265_mono4.flac
