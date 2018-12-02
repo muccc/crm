@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ "$#"  -ne 1 ]; then
+  echo "Usage: $0 <KEY>"
+  exit -1
+fi
+storage=https://cdn.andreas-hubel.de/misc/crm-$1
+wget -N $storage/181202_304_mono1.flac
+wget -N $storage/181202_304_mono2.flac
+wget -N $storage/181202_304_mono3.flac
+wget -N $storage/181202_304_mono4.flac
+wget -N $storage/181202_304_mono5.flac
